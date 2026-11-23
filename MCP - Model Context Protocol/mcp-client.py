@@ -6,10 +6,10 @@ from mcp.client.stdio import stdio_client
 
 # must support tool calling - gemma4:31b - granite4.1:3b
 OLLAMA_MODEL = "gemma4:31b"
+# MCP_SERVER = "mcp-server-basic-full.py"
+# MCP_SERVER = "mcp-basic-server-full.py"
 MCP_SERVER = "mcp-server-system-health.py"
-# mcp-basic-server-full.py
-# mcp-system-health-server.py
-# mcp-ping-server.py
+# MCP_SERVER = "mcp-ping-server.py"
 
 server_params = StdioServerParameters(
     command="python3",
